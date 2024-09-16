@@ -1,6 +1,6 @@
 import React from 'react'
 
-const KidsCornerPage = () => {
+const KidsCornerPages = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const KidsCornerPage = () => {
   )
 }
 
-export default KidsCornerPage
+export default KidsCornerPages
