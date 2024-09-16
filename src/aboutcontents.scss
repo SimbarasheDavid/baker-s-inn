@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: 3s all ease-in-out;
+    font-family: Avenir lt std;
+  }
+  #vision{
+    
+    .core-vision{
+        margin: 0px 30px;
+        .core{
+            position: relative;
+            img{
+                width: 100%;
+            }
+           }
+           .bout-us{
+            position: absolute;
+            bottom: -95px;
+            padding: 0px 10px 0px 20px;
+            background: linear-gradient(360deg, #000 10%, transparent);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 95.5%;
+            border-radius: 0px 0px 10px 10px;
+            h2{
+                color: #fff;
+            }
+           }
+    }
+.sharpen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F7F5E8;  
+  padding: 90px 70px;
+  margin: 80px 30px;
+  gap: 40px;
+  .flag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  
+  .flaag{
+    background: #C6A460; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+width: 18%;
+padding: 20px;
+border-radius: 100px;
+img{
+  
+    width: 90%;
+}
+  }
+  .edge{
+    h2{
+        font-family: Montserrat;
+        font-weight: 800;
+        color: #261B6C;
+    }
+    p{
+        width: 68%;
+        color: #261B6C;
+    }
+  }
+}
+  .nourish{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+  
+  .eye{
+    background: #C6A460; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+width: 18%;
+padding: 20px;
+border-radius: 100px;
+img{
+    width: 90%;
+}
+  }
+  .view{
+    h2{
+       font-family: Montserrat;
+       font-weight: 800;
+        color: #261B6C;
+    }
+    p{
+        width: 68%;
+        color: #261B6C;
+    }  
+  }
+}
+}
+.core-values{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 150px 0px;
+    background: #F8F8F8;
+    padding: 70px 0px;
+    h2{
+        color: #261B6C;
+        font-weight: 800;
+        font-family: Montserrat;
+        font-size: 30px;
+    }
+    .card-container{
+        margin: 70px 40px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-content: center;
+        justify-content: center;
+        gap: 30px;
+        text-align: center;
+        // width: 100%;
+        .img-one{
+            img{
+                width: 100%;
+            }
+      
+         
+        }
+        .texts{
+            text-align: center;
+            h2{
+                color: #261B6C;
+                font-weight: 700;
+                font-family: Montserrat;
+                font-size: 30px;
+                margin: 10px 0px
+            }
+            p{
+               margin: 0px 30px;
+                
+            }
+            }
+    }
+}
+.promise{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px 30px;
+    .qaulity{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .ceo-text{
+        width: 100%;
+        h2{
+            color: #261B6C;
+        }
+        p{
+            width: 100%;
+            color: #261B6C;
+            font-size: 18px;
+          
+        }
+       .dreams{
+        margin: 20px 0px;
+       } 
+      .ngoni{
+       text-align:center ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin: 30px 0px;
+    h3{
+      position: absolute;
+      color: #261B6C;
+      right: 440px;
+      font-size: 25px;
+      margin-bottom: -40px;
+    }
+    p{
+        font-size: 25px;
+    }
+      }
+    }
+}
+  }
