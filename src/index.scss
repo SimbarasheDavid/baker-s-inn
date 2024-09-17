@@ -1,774 +1,783 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  transition: 3s all ease-in-out;
-  font-family: Avenir lt std;
-}
+// * {
+//   box-sizing: border-box;
+//   margin: 0;
+//   padding: 0;
+//   transition: 3s all ease-in-out;
+//   font-family: Avenir lt std;
+// }
 
-#navBar {
-  padding: 0px 30px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+// #navBar {
+//   padding: 0px 30px;
+//   width: 100%;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
 
-  img {
-    width: 80%;
-  }
+//   img {
+//     width: 80%;
+//   }
 
-  ul {
+//   ul {
 
-    display: flex;
-    list-style: none;
-    align-items: center;
-    // justify-content: center;
-    gap: 20px;
-    font-size: 24px;
-    font-weight: 750;
-.links{
-color: #AEA9C7;
-cursor: pointer;
-}
-.active-links{
-  color: #261B6C;
-}
-    button {
-      padding: 10px 20px;
-      font-size: 20px;
-      font-weight: 600;
-      background: #B2904C;
-      border: none;
-      color: #fff;
-    }
-  }
-}
-
-#Hero {
-  margin: 0px 30px;
-  background: #261B6C;
-  position: relative;
-  height: auto;
-  border-radius: 10px;
-  // position: relative;
-  overflow-x: hidden;
-
-  .rect-2 {
-    margin: 0px 0px 20px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    img {
-      width: 100%;
-    }
-  }
-
-  .textBread {
+//     display: flex;
+//     list-style: none;
+//     align-items: center;
+//     // justify-content: center;
+//     gap: 20px;
+//     font-size: 24px;
+//     font-weight: 750;
+// .li{
+// color: #AEA9C7;
+// cursor: pointer;
 
 
-    .heroText {
-      position: absolute;
-      top: 150px;
-      left: 90px;
+// }
+// a{
+//   color: #AEA9C7;
+//   text-decoration: none;
+// }
+// li, .active-links:active{
+//   color: #261B6C;
+//   li{
+//     color: #261B6C;
+//   }
+// }
+//     button {
+//       padding: 10px 20px;
+//       font-size: 20px;
+//       font-weight: 600;
+//       background: #B2904C;
+//       border: none;
+//       color: #fff;
+//     }
+//   }
+// }
 
-      h1 {
-        margin: 0px 0px 20px 0px;
-        font-size: 40px;
-        font-family: Montserrat;
-        color: #fff;
-        width: 40%;
+// #Hero {
+//   margin: 0px 30px;
+//   background: #261B6C;
+//   position: relative;
+//   height: auto;
+//   border-radius: 10px;
+//   // position: relative;
+//   overflow-x: hidden;
 
-        span {
-          text-decoration: underline 5px solid #B2904C;
-          letter-spacing: 2px;
-        }
-      }
+//   .rect-2 {
+//     margin: 0px 0px 20px 0px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
 
-      p {
-        margin: 0px 0px 20px 0px;
-        font-size: 20px;
-        color: #FFFFFF;
-        width: 40%;
-      }
+//     img {
+//       width: 100%;
+//     }
+//   }
 
-      button {
-        padding: 10px 20px;
-        color: #fff;
-        border: none;
-        background-color: #B2904C;
-        border-radius: 5px;
-        font-size: 20px;
-      }
-    }
-
-    .bread {
-      .bread-one {
-        position: absolute;
-        top: 15px;
-        right: 200px;
-
-        img {
-          width: 70%;
-        }
-      }
-
-      .bread-two {
-        position: absolute;
-        top: 100px;
-        right: 110px;
-
-        img {
-          width: 66%;
-        }
-      }
-
-      .bread-three {
-        position: absolute;
-        top: 100px;
-        right: -35px;
-
-        img {
-          width: 66%;
-        }
-      }
-
-      .bread-four {
-        position: absolute;
-        top: 100px;
-        right: -125px;
-
-        img {
-          width: 66%;
-        }
-      }
-    }
-
-  }
-}
-
-#bout {
-  margin: 70px 30px;
-
-  .about {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-
-    h2 {
-      width: 100%;
-      font-size: 30px;
-      font-weight: 900;
-      font-family: Montserrat;
-      color: #261B6C;
-    }
-
-    p {
-      width: 100%;
-      font-size: 20px;
-      padding: 0px 75px;
-      color: #261B6C;
-    }
-
-    button {
-      margin: 10px 75px;
-      padding: 10px 20px;
-      border-radius: 5px;
-      border: none;
-      background: #B2904C;
-      color: #fff;
-      font-weight: 700;
-    }
-  }
-
-  .four-container {
-    padding: 70px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-
-    img {
-      width: 100%;
-    }
-  }
-}
-
-#produce {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  font-family: Montserrat;
-  background: #F8F8F8;
-
-  h2 {
-    padding: 30px 0px;
-    font-size: 30px;
-    color: #261B6C;
-    font-weight: 900;
-  }
-
-  .products-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 30px;
-    gap: 20px;
-
-    img {
-      width: 100%;
-    }
-
-    .bread {
+//   .textBread {
 
 
-      p {
-        background: linear-gradient(360deg, #000 10%, transparent);
-        color: #fff;
-        padding: 10px 20px;
-        position: absolute;
-        border-radius: 0px 0px 10px 10px;
-        bottom: 150px;
-        left: 30px;
-        width: 22.75%;
+//     .heroText {
+//       position: absolute;
+//       top: 150px;
+//       left: 90px;
 
-      }
-    }
+//       h1 {
+//         margin: 0px 0px 20px 0px;
+//         font-size: 40px;
+//         font-family: Montserrat;
+//         color: #fff;
+//         width: 40%;
 
-    .meat {
-      p {
+//         span {
+//           text-decoration: underline 5px solid #B2904C;
+//           letter-spacing: 2px;
+//         }
+//       }
 
-        color: #fff;
-        padding: 10px 20px;
-        position: absolute;
-        background: linear-gradient(360deg, #000 10%, transparent);
-        color: #fff;
-        bottom: 150px;
-        left: 358.3px;
-        width: 22.75%;
-        border-radius: 0px 0px 10px 10px;
+//       p {
+//         margin: 0px 0px 20px 0px;
+//         font-size: 20px;
+//         color: #FFFFFF;
+//         width: 40%;
+//       }
 
-      }
-    }
+//       button {
+//         padding: 10px 20px;
+//         color: #fff;
+//         border: none;
+//         background-color: #B2904C;
+//         border-radius: 5px;
+//         font-size: 20px;
+//       }
+//     }
 
-    .scone {
-      p {
+//     .bread {
+//       .bread-one {
+//         position: absolute;
+//         top: 15px;
+//         right: 200px;
 
-        color: #fff;
-        padding: 10px 20px;
-        position: absolute;
-        background: linear-gradient(360deg, #000 10%, transparent);
-        color: #fff;
-        bottom: 150px;
-        right: 355px;
-        width: 22.75%;
-        border-radius: 0px 0px 10px 10px;
+//         img {
+//           width: 70%;
+//         }
+//       }
 
-      }
-    }
+//       .bread-two {
+//         position: absolute;
+//         top: 100px;
+//         right: 110px;
 
-    .donut {
-      p {
+//         img {
+//           width: 66%;
+//         }
+//       }
 
-        color: #fff;
-        padding: 10px 20px;
-        position: absolute;
-        background: linear-gradient(360deg, #000 10%, transparent);
-        color: #fff;
-        bottom: 150px;
-        right: 30px;
-        width: 22.75%;
-        border-radius: 0px 0px 10px 10px;
+//       .bread-three {
+//         position: absolute;
+//         top: 100px;
+//         right: -35px;
 
-      }
-    }
-  }
+//         img {
+//           width: 66%;
+//         }
+//       }
 
-  button {
-    margin: 50px 0px;
-    padding: 10px 20px;
-    background: #B2904C;
-    color: #fff;
-    font-weight: 700;
-    border-radius: 5px;
-    border: none;
+//       .bread-four {
+//         position: absolute;
+//         top: 100px;
+//         right: -125px;
 
-  }
-}
+//         img {
+//           width: 66%;
+//         }
+//       }
+//     }
 
-#tour {
+//   }
+// }
+
+// #bout {
+//   margin: 70px 30px;
+
+//   .about {
+//     display: flex;
+//     align-items: flex-start;
+//     justify-content: center;
+
+//     h2 {
+//       width: 100%;
+//       font-size: 30px;
+//       font-weight: 900;
+//       font-family: Montserrat;
+//       color: #261B6C;
+//     }
+
+//     p {
+//       width: 100%;
+//       font-size: 20px;
+//       padding: 0px 75px;
+//       color: #261B6C;
+//     }
+
+//     button {
+//       margin: 10px 75px;
+//       padding: 10px 20px;
+//       border-radius: 5px;
+//       border: none;
+//       background: #B2904C;
+//       color: #fff;
+//       font-weight: 700;
+//     }
+//   }
+
+//   .four-container {
+//     padding: 70px 0px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     gap: 20px;
+
+//     img {
+//       width: 100%;
+//     }
+//   }
+// }
+
+// #produce {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   position: relative;
+//   font-family: Montserrat;
+//   background: #F8F8F8;
+
+//   h2 {
+//     padding: 30px 0px;
+//     font-size: 30px;
+//     color: #261B6C;
+//     font-weight: 900;
+//   }
+
+//   .products-container {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     margin: 10px 30px;
+//     gap: 20px;
+
+//     img {
+//       width: 100%;
+//     }
+
+//     .bread {
+
+
+//       p {
+//         background: linear-gradient(360deg, #000 10%, transparent);
+//         color: #fff;
+//         padding: 10px 20px;
+//         position: absolute;
+//         border-radius: 0px 0px 10px 10px;
+//         bottom: 150px;
+//         left: 30px;
+//         width: 22.75%;
+
+//       }
+//     }
+
+//     .meat {
+//       p {
+
+//         color: #fff;
+//         padding: 10px 20px;
+//         position: absolute;
+//         background: linear-gradient(360deg, #000 10%, transparent);
+//         color: #fff;
+//         bottom: 150px;
+//         left: 358.3px;
+//         width: 22.75%;
+//         border-radius: 0px 0px 10px 10px;
+
+//       }
+//     }
+
+//     .scone {
+//       p {
+
+//         color: #fff;
+//         padding: 10px 20px;
+//         position: absolute;
+//         background: linear-gradient(360deg, #000 10%, transparent);
+//         color: #fff;
+//         bottom: 150px;
+//         right: 355px;
+//         width: 22.75%;
+//         border-radius: 0px 0px 10px 10px;
+
+//       }
+//     }
+
+//     .donut {
+//       p {
+
+//         color: #fff;
+//         padding: 10px 20px;
+//         position: absolute;
+//         background: linear-gradient(360deg, #000 10%, transparent);
+//         color: #fff;
+//         bottom: 150px;
+//         right: 30px;
+//         width: 22.75%;
+//         border-radius: 0px 0px 10px 10px;
+
+//       }
+//     }
+//   }
+
+//   button {
+//     margin: 50px 0px;
+//     padding: 10px 20px;
+//     background: #B2904C;
+//     color: #fff;
+//     font-weight: 700;
+//     border-radius: 5px;
+//     border: none;
+
+//   }
+// }
+
+// #tour {
   
 
-  .factory-tour {
-    margin: 90px 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+//   .factory-tour {
+//     margin: 90px 50px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     gap: 30px;
 
-    .tour-text {
-      width: 100%;
-      font-size: 20px;
+//     .tour-text {
+//       width: 100%;
+//       font-size: 20px;
 
-      button {
-        background: #B2904C;
-        border: none;
-        color: #fff;
-        font-weight: 700;
-        padding: 10px 20px;
-        border-radius: 5px;
-      }
+//       button {
+//         background: #B2904C;
+//         border: none;
+//         color: #fff;
+//         font-weight: 700;
+//         padding: 10px 20px;
+//         border-radius: 5px;
+//       }
 
-      p {
-        margin: 20px 0px;
-        width: 73%;
-        color: #261B6C;
+//       p {
+//         margin: 20px 0px;
+//         width: 73%;
+//         color: #261B6C;
 
-      }
+//       }
 
-      h2 {
-        font-size: 30px;
-        font-weight: 900;
-        color: #261B6C;
-        font-family: Montserrat;
-      }
-    }
+//       h2 {
+//         font-size: 30px;
+//         font-weight: 900;
+//         color: #261B6C;
+//         font-family: Montserrat;
+//       }
+//     }
 
-    .fact {
-      img {
-
-
-        width: 100%;
-      }
-
-    }
-  }
-
-  .request {
-    background: #F8F8F8;
-    width: 100%;
+//     .fact {
+//       img {
 
 
-    .req-donations {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      // margin: 150px 50px;
-      padding: 60px 60px 100px 60px;
-gap: 60px;
-      .donations {
-        width: 100%;
-        img {
-          width: 100%;
-        }
-      }
-      .textbox{
-        h2{
-          color: #261B6C;
-          font-size: 30px;
-          font-weight: 900;
-          font-family: Montserrat;
-        }
-        p{
-          margin: 20px 0px;
-          font-size: 20px;
-          color: #261B6C;
-          width: 72%;
-        }
-        button {
-          background: #B2904C;
-          border: none;
-          color: #fff;
-          font-weight: 700;
-          padding: 10px 20px;
-          border-radius: 5px;
-        }
-      }
-    }
-  }
-}
-#kidCorner{
-  background: #261B6C;
-  margin: 50px 30px;
-  border-radius: 5px;
-  position: relative;
-  overflow: hidden;
-  .african{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    img{
-      width: 100%;
-    }
-  }
-  .palm{
-    top: 0;
-    left: -50px;
-    position: absolute;
-    img{
-      width: 70%;
-    }
-  }
-  .marioo{
-    position: absolute;
-   top: 450px;
+//         width: 100%;
+//       }
 
-    img{
-      width: 70%;
-    }
-  }
-  .shroom{
-    position: absolute;
-    top: 480px;
-    left: 480px;
-  }
-  .kidstext{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 320px;
-right: -250px;
+//     }
+//   }
 
-color: #fff;
-.cornerkids{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  .img{
-    position: absolute;
-left: 330px;
-top:- 90px;
-    img{
-      width: 70%;
-    }
-  }
-  .img1{
-    position: absolute;
-right: 165px;
-top: -90px;
-    img{
-      width: 70%;
-    }
-  }
+//   .request {
+//     background: #F8F8F8;
+//     width: 100%;
 
 
-}
-    p{
-      font-size: 20px;
-      width: 37%;
-      text-align: center;
-      margin: 20px 0px;
-    }
-    button {
-      background: #FF4655;
-      border: none;
-      color: #fff;
-      font-weight: 700;
-      padding: 10px 20px;
-      border-radius: 5px;
-    }
-  }
-}
+//     .req-donations {
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+//       // margin: 150px 50px;
+//       padding: 60px 60px 100px 60px;
+// gap: 60px;
+//       .donations {
+//         width: 100%;
+//         img {
+//           width: 100%;
+//         }
+//       }
+//       .textbox{
+//         h2{
+//           color: #261B6C;
+//           font-size: 30px;
+//           font-weight: 900;
+//           font-family: Montserrat;
+//         }
+//         p{
+//           margin: 20px 0px;
+//           font-size: 20px;
+//           color: #261B6C;
+//           width: 72%;
+//         }
+//         button {
+//           background: #B2904C;
+//           border: none;
+//           color: #fff;
+//           font-weight: 700;
+//           padding: 10px 20px;
+//           border-radius: 5px;
+//         }
+//       }
+//     }
+//   }
+// }
+// #kidCorner{
+//   background: #261B6C;
+//   margin: 50px 30px;
+//   border-radius: 5px;
+//   position: relative;
+//   overflow: hidden;
+//   .african{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     img{
+//       width: 100%;
+//     }
+//   }
+//   .palm{
+//     top: 0;
+//     left: -50px;
+//     position: absolute;
+//     img{
+//       width: 70%;
+//     }
+//   }
+//   .marioo{
+//     position: absolute;
+//    top: 450px;
 
-#recipes{
-  overflow-x: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 100px 50px;
-  h2{
-font-size: 30px;
-font-weight: 900;
-font-family:Montserrat ;
-color: #261B6C;
-  }
-  .tabs{
-    width: 100%;
-    margin: 40px 0px;
-    padding: 0px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    border-bottom: 2px solid #261B6C;
-    li{
-      list-style: none;
-      font-size: 20px;
-      font-weight: 800;
-      font-family: Montserrat;
-      cursor: pointer;
-      color: #AEA9C7;
-    }
-    .active-kids, .active-vegans, .active-family{
-      // text-decoration: underline 3px solid #B2904C;
-     color: #261B6C;
-      border-bottom: #B2904C 5px solid;
-    li{
-      color: #261B6C;
-      padding: 10px 0px;
-    }
-    }
+//     img{
+//       width: 70%;
+//     }
+//   }
+//   .shroom{
+//     position: absolute;
+//     top: 480px;
+//     left: 480px;
+//   }
+//   .kidstext{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     position: absolute;
+//     top: 320px;
+// right: -250px;
 
-  }
-  .content{
-    .forKids, .forVegans, .forFamily{
-      display: none;
+// color: #fff;
+// .cornerkids{
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   .img{
+//     position: absolute;
+// left: 330px;
+// top:- 90px;
+//     img{
+//       width: 70%;
+//     }
+//   }
+//   .img1{
+//     position: absolute;
+// right: 165px;
+// top: -90px;
+//     img{
+//       width: 70%;
+//     }
+//   }
+
+
+// }
+//     p{
+//       font-size: 20px;
+//       width: 37%;
+//       text-align: center;
+//       margin: 20px 0px;
+//     }
+//     button {
+//       background: #FF4655;
+//       border: none;
+//       color: #fff;
+//       font-weight: 700;
+//       padding: 10px 20px;
+//       border-radius: 5px;
+//     }
+//   }
+// }
+
+// #recipes{
+//   overflow-x: hidden;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   margin: 100px 50px;
+//   h2{
+// font-size: 30px;
+// font-weight: 900;
+// font-family:Montserrat ;
+// color: #261B6C;
+//   }
+//   .tabs{
+//     width: 100%;
+//     margin: 40px 0px;
+//     padding: 0px 0px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     gap: 20px;
+//     border-bottom: 2px solid #261B6C;
+//     li{
+//       list-style: none;
+//       font-size: 20px;
+//       font-weight: 800;
+//       font-family: Montserrat;
+//       cursor: pointer;
+//       color: #AEA9C7;
+//     }
+//     .active-kids, .active-vegans, .active-family{
+//       // text-decoration: underline 3px solid #B2904C;
+//      color: #261B6C;
+//       border-bottom: #B2904C 5px solid;
+//     li{
+//       color: #261B6C;
+//       padding: 10px 0px;
+//     }
+//     }
+
+//   }
+//   .content{
+//     .forKids, .forVegans, .forFamily{
+//       display: none;
      
-    }
-    .active-forKids, .active-forVegans, .active-forFamily{
-      display: block;
+//     }
+//     .active-forKids, .active-forVegans, .active-forFamily{
+//       display: block;
       
-    }
+//     }
     
-    .cardContainer{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 20px;
-      .KidsCard{
-        border: #F8F8F8 1px solid;
-        padding: 5px;
-        border: #AEA9C7 0.1px solid;
-        box-shadow: #261B6C 0px 2px 2px 0px ;
-      }
-      img{
-        width: 100%;
-      }
-      .texto{
-        margin: 20px;
-        h3{
-          font-weight: 900;
-          font-family: Montserrat;
-          color: #261B6C;
+//     .cardContainer{
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+//       gap: 20px;
+//       .KidsCard{
+//         border: #F8F8F8 1px solid;
+//         padding: 5px;
+//         border: #AEA9C7 0.1px solid;
+//         box-shadow: #261B6C 0px 2px 2px 0px ;
+//       }
+//       img{
+//         width: 100%;
+//       }
+//       .texto{
+//         margin: 20px;
+//         h3{
+//           font-weight: 900;
+//           font-family: Montserrat;
+//           color: #261B6C;
           
-        }
-        p{
-color: #261B6C;
-font-weight: 700;
-margin: 10px 0px;
-span{
-  color: #B2904C;
-  padding-left: 10px;
-}
-.time{
-  padding-left: 40px;
-}
-        }
-        .pic-arrow{
-        display: flex; 
-        align-items: flex-end;
-          position: relative;
-      bottom: 40px;
-      left:330px;
-          img{
-            width: 10%;
-            background: #B2904C;
-            padding: 5px;
-            border-radius: 100px;
-          }
-        }
-      }
-    }
-  }
-}
-#promo{
-  margin: 40px;
-border-radius: 15px;
-position: relative;
-overflow-x: hidden;
-overflow-y: visible;
-  .afri-pattern{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #B2904C;
-    width: 100%;
-    img{
-      width: 100%;
-    }
+//         }
+//         p{
+// color: #261B6C;
+// font-weight: 700;
+// margin: 10px 0px;
+// span{
+//   color: #B2904C;
+//   padding-left: 10px;
+// }
+// .time{
+//   padding-left: 40px;
+// }
+//         }
+//         .pic-arrow{
+//         display: flex; 
+//         align-items: flex-end;
+//           position: relative;
+//       bottom: 40px;
+//       left:330px;
+//           img{
+//             width: 10%;
+//             background: #B2904C;
+//             padding: 5px;
+//             border-radius: 100px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+// #promo{
+//   margin: 40px;
+// border-radius: 15px;
+// position: relative;
+// overflow-x: hidden;
+// overflow-y: visible;
+//   .afri-pattern{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     background: #B2904C;
+//     width: 100%;
+//     img{
+//       width: 100%;
+//     }
   
-  }
-  form{
-    position: absolute;
-    top: 130px;
-    left: 50px;
-    h2{
-      color: #fff;
-      font-size: 30px;
-      font-weight: 700;
-      font-family: Montserrat;
-      width: 60%;
-      margin: 10px 0px;
-    }
-    input{
-      padding: 15px;
-      width: 100%;
-      background: #C6A460;
-      border: none;
-    }
-button{
-  padding: 10px 20px;
-  background: #261B6C;
-  color: #fff;
-  border: none;
-  font-weight: 700;
-  position: absolute;
-  top: 98.5px;
-  left: 530px;
-  border-radius: 5px;
-}
-  }
-  .breddo{
-    .blue{
-      position: absolute;
-      top: -70px;
-      left: 790px;
-      img{
-        width: 80%;
-      }
-    }
-    .green{
-      position: absolute;
-      top: 0;
-      left: 680px;
-      img{
-        width: 55%;
-      }
-    }
-    .brown{
-      position: absolute;
-      top: 0;
-      right: -240px;
-      img{
-        width: 55%;
-      }
-    }
-  }
-}
-#last{
-  background: #261B6C;
-  overflow-x: hidden;
-  .threeply{
-    margin: 10px 40px;
-display: flex;
-align-items: flex-end;
-justify-content: center;
-gap: 20px;
-img{
-  width: 100%;
-}
-  }
-  .insta-Container{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    margin: 30px 30px;
-    .gram{
-      h2{
-        color: #fff;
-        font-family: Montserrat;
-      }
-      .three-pics{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 10px 0px;
-        gap: 10px;
-        img{
-          width: 100%;
-        }
-      }
-    }
-    .location{
-      position: relative;
-      left: 210px;
-      h2{
-        color: #fff;
-        font-family: Montserrat;
-      }
-      p{
-        width: 65%;
-        color: #fff;
-        padding: 10px 0px;
-      }
-    }
-    .intouch{
-      color: #fff;
-      position: relative;
-      right: -290px;
-      width: 100%;
-      h2{
-        font-family: Montserrat;
+//   }
+//   form{
+//     position: absolute;
+//     top: 130px;
+//     left: 50px;
+//     h2{
+//       color: #fff;
+//       font-size: 30px;
+//       font-weight: 700;
+//       font-family: Montserrat;
+//       width: 60%;
+//       margin: 10px 0px;
+//     }
+//     input{
+//       padding: 15px;
+//       width: 100%;
+//       background: #C6A460;
+//       border: none;
+//     }
+// button{
+//   padding: 10px 20px;
+//   background: #261B6C;
+//   color: #fff;
+//   border: none;
+//   font-weight: 700;
+//   position: absolute;
+//   top: 98.5px;
+//   left: 530px;
+//   border-radius: 5px;
+// }
+//   }
+//   .breddo{
+//     .blue{
+//       position: absolute;
+//       top: -70px;
+//       left: 790px;
+//       img{
+//         width: 80%;
+//       }
+//     }
+//     .green{
+//       position: absolute;
+//       top: 0;
+//       left: 680px;
+//       img{
+//         width: 55%;
+//       }
+//     }
+//     .brown{
+//       position: absolute;
+//       top: 0;
+//       right: -240px;
+//       img{
+//         width: 55%;
+//       }
+//     }
+//   }
+// }
+// #last{
+//   background: #261B6C;
+//   overflow-x: hidden;
+//   .threeply{
+//     margin: 10px 40px;
+// display: flex;
+// align-items: flex-end;
+// justify-content: center;
+// gap: 20px;
+// img{
+//   width: 100%;
+// }
+//   }
+//   .insta-Container{
+//     display: flex;
+//     align-items: flex-start;
+//     justify-content: space-evenly;
+//     margin: 30px 30px;
+//     .gram{
+//       h2{
+//         color: #fff;
+//         font-family: Montserrat;
+//       }
+//       .three-pics{
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         padding: 10px 0px;
+//         gap: 10px;
+//         img{
+//           width: 100%;
+//         }
+//       }
+//     }
+//     .location{
+//       position: relative;
+//       left: 210px;
+//       h2{
+//         color: #fff;
+//         font-family: Montserrat;
+//       }
+//       p{
+//         width: 65%;
+//         color: #fff;
+//         padding: 10px 0px;
+//       }
+//     }
+//     .intouch{
+//       color: #fff;
+//       position: relative;
+//       right: -290px;
+//       width: 100%;
+//       h2{
+//         font-family: Montserrat;
         
-      }
-      .touch{
-        padding: 10px 0px;
-        .call{
-          display: flex;
-          align-items: start;
-          justify-content: start;
-          gap: 10px;
+//       }
+//       .touch{
+//         padding: 10px 0px;
+//         .call{
+//           display: flex;
+//           align-items: start;
+//           justify-content: start;
+//           gap: 10px;
          
-        }
-        .numbre{
-          p{
-            padding-left: 37px;
-          }
-        }
-        .email{
-          display: flex;
-          align-items: start;
-          justify-content: start;
-          gap: 10px;
-        }
-      }
-    }
-    .map{
-      color: #fff;
-      position: relative;
-      right: 30px;
-      h2{
-        font-family: Montserrat;
-      }
-      ul{
-        padding: 10px 0px;
-        li{
-          list-style: none;
-          margin: 10px 0px;
-        }
-      }
-    }
-  }
-  .foot-icons{
-    display: flex;
-    align-items: start;
-    justify-content: start;
-    gap: 10px;
-    padding: 15px 0px;
-    margin: 20px 30px;
-    border-bottom: #fff 2px solid;
-  }
-  .subsidiary{
-    margin: 20px 30px;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 20px;
-    p{
-      font-size: 20px;
-    }
-    .inscor{
-      margin-bottom: 15px;
-      img{
-        width: 100%;
-      }
-    }
+//         }
+//         .numbre{
+//           p{
+//             padding-left: 37px;
+//           }
+//         }
+//         .email{
+//           display: flex;
+//           align-items: start;
+//           justify-content: start;
+//           gap: 10px;
+//         }
+//       }
+//     }
+//     .map{
+//       color: #fff;
+//       position: relative;
+//       right: 30px;
+//       h2{
+//         font-family: Montserrat;
+//       }
+//       ul{
+//         padding: 10px 0px;
+//         li{
+//           list-style: none;
+//           margin: 10px 0px;
+//         }
+//       }
+//     }
+//   }
+//   .foot-icons{
+//     display: flex;
+//     align-items: start;
+//     justify-content: start;
+//     gap: 10px;
+//     padding: 15px 0px;
+//     margin: 20px 30px;
+//     border-bottom: #fff 2px solid;
+//   }
+//   .subsidiary{
+//     margin: 20px 30px;
+//     color: #fff;
+//     display: flex;
+//     align-items: center;
+//     justify-content: start;
+//     gap: 20px;
+//     p{
+//       font-size: 20px;
+//     }
+//     .inscor{
+//       margin-bottom: 15px;
+//       img{
+//         width: 100%;
+//       }
+//     }
 
-  }
-}
+//   }
+// }

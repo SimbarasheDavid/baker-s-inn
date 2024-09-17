@@ -4,7 +4,7 @@ const family = {
     FamilyCard:[
         {
             image: salmon,
-            title: 'Shwarma Sandwich',
+            title: 'Salmon Strips',
             desc: 'Prep-Time:',
             time: '20 min',
             desc1: 'Serves:',
@@ -13,7 +13,7 @@ const family = {
         },
         {
             image: salmon,
-            title: 'Shwarma Sandwich',
+            title: 'Salmon Strips',
             desc: 'Prep-Time:',
             time: '20 min',
             desc1: 'Serves:',
@@ -22,7 +22,7 @@ const family = {
         },
         {
             image: salmon,
-            title: 'Shwarma Sandwich',
+            title: 'Salmon Strips',
             desc: 'Prep-Time:',
             time: '20 min',
             desc1: 'Serves:',
