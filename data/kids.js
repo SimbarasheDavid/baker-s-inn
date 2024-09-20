@@ -1,4 +1,4 @@
-import sandie from '../src/assets/images/Rectangle 12.png'
+import sandie from '../src/assets/images/schwarma.png'
 import arrow from '../src/assets/images/arrow-right-solid.svg'
 const kids = {
     KidsCard:[

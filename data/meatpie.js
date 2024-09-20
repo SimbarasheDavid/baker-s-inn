@@ -1,6 +1,6 @@
-import onepie from '../src/assets/images/Rectangle 24.png'
-import twopie from '../src/assets/images/Rectangle 24.png'
-import threepie from '../src/assets/images/Rectangle 24.png'
+import onepie from '../src/assets/images/meatpie.png'
+import twopie from '../src/assets/images/meatpie.png'
+import threepie from '../src/assets/images/meatpie.png'
 const meatpie = {
     MeatPieCard:[
         {

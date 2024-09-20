@@ -1,4 +1,4 @@
-import shortbread from '../src/assets/images/Rectangle 337.png'
+import shortbread from '../src/assets/images/shortbread.png'
 import arrow from '../src/assets/images/arrow-right-solid.svg'
 const vegans = {
     VegansCard:[

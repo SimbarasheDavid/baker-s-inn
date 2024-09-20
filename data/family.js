@@ -1,4 +1,4 @@
-import salmon from '../src/assets/images/Rectangle 336.png'
+import salmon from '../src/assets/images/salmonstrips.png'
 import arrow from '../src/assets/images/arrow-right-solid.svg'
 const family = {
     FamilyCard:[

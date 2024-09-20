@@ -1,0 +1,658 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 3s ease-in-out;
+    font-family: Avenir Lt Std;
+}
+#cornet{
+    margin: 0px 30px;
+    display: flex;align-items: center;justify-content: center;
+    .character, .characters{
+        img{
+            width: 100%;
+        }
+    }
+}
+#spaceship{
+    border-radius: 10px;
+    background: #018BF1;
+    margin: 30px;
+    padding: 50px;
+    display: flex;align-items: center;justify-content: space-between;
+    .space-text{
+width: 100%;
+h2 {
+    font-size: 40px;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 800;
+    width: 100%;
+}
+p{
+    color: #fff;
+    font-size: 20px ;
+    margin: 20px 0px;
+}
+button {
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background: #B2904C;
+    margin-top: 20px;
+}
+    }
+    .space-game{
+        width: 100%;
+img{
+    width: 100%;
+}
+    }
+}
+#risky-way{
+    margin: 50px 30px;
+    display: flex;align-items: center;justify-content: center;
+    padding: 50px;
+    background:#FF4655 ;
+    border-radius: 10px;
+    .risky-text{
+width: 100%;
+h2 {
+    font-size: 40px;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 800;
+    width: 100%;
+}
+p{
+    color: #fff;
+    font-size: 20px ;
+    margin: 20px 0px;
+}
+button {
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #FF4655;
+    background: #fff;
+    margin-top: 20px;
+}
+    }
+    .risky{
+width: 100%;
+img{
+    width: 100%;
+}
+    }
+}
+#pacman{
+    margin: 50px 30px;  
+    display: flex;align-items: center;justify-content: center;
+    padding: 50px;
+    background: #261B6C ;
+    border-radius: 10px; 
+    .pacman-text{
+        width: 100%;
+h2 {
+    font-size: 40px;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 800;
+    width: 100%;
+}
+p{
+    color: #fff;
+    font-size: 20px ;
+    margin: 20px 0px;
+}
+button {
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #FF4655;
+    background: #fff;
+    margin-top: 20px;
+}
+    }
+    .pac{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+}
+@media(max-width:1440px){
+    * {
+        margin: 0;
+        padding: 0;
+        transition: all 3s ease-in-out;
+        font-family: Avenir Lt Std;
+    }
+    #cornet{
+        margin: 0px 30px;
+        display: flex;align-items: center;justify-content: center;
+        .character, .characters{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    #spaceship{
+        border-radius: 10px;
+        background: #018BF1;
+        margin: 30px;
+        padding: 50px;
+        display: flex;align-items: center;justify-content: space-between;
+        .space-text{
+    width: 100%;
+    h2 {
+        font-size: 40px;
+        color: #fff;
+        font-family: Montserrat;
+        font-weight: 800;
+        width: 100%;
+    }
+    p{
+        color: #fff;
+        font-size: 20px ;
+        margin: 20px 0px;
+    }
+    button {
+        padding: 10px 20px;
+        font-weight: 700;
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        background: #B2904C;
+        margin-top: 20px;
+    }
+        }
+        .space-game{
+            width: 100%;
+    img{
+        width: 100%;
+    }
+        }
+    }
+    #risky-way{
+        margin: 50px 30px;
+        display: flex;align-items: center;justify-content: center;
+        padding: 50px;
+        background:#FF4655 ;
+        border-radius: 10px;
+        .risky-text{
+    width: 100%;
+    h2 {
+        font-size: 40px;
+        color: #fff;
+        font-family: Montserrat;
+        font-weight: 800;
+        width: 100%;
+    }
+    p{
+        color: #fff;
+        font-size: 20px ;
+        margin: 20px 0px;
+    }
+    button {
+        padding: 10px 20px;
+        font-weight: 700;
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+        color: #FF4655;
+        background: #fff;
+        margin-top: 20px;
+    }
+        }
+        .risky{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+        }
+    }
+    #pacman{
+        margin: 50px 30px;  
+        display: flex;align-items: center;justify-content: center;
+        padding: 50px;
+        background: #261B6C ;
+        border-radius: 10px; 
+        .pacman-text{
+            width: 100%;
+    h2 {
+        font-size: 40px;
+        color: #fff;
+        font-family: Montserrat;
+        font-weight: 800;
+        width: 100%;
+    }
+    p{
+        color: #fff;
+        font-size: 20px ;
+        margin: 20px 0px;
+    }
+    button {
+        padding: 10px 20px;
+        font-weight: 700;
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+        color: #FF4655;
+        background: #fff;
+        margin-top: 20px;
+    }
+        }
+        .pac{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+@media(max-width:1024px){
+    * {
+        margin: 0;
+        padding: 0;
+        transition: all 3s ease-in-out;
+        font-family: Avenir Lt Std;
+    }
+    #cornet{
+        margin: 0px 30px;
+        display: flex;align-items: center;justify-content: center;
+        .character, .characters{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    #spaceship{
+        border-radius: 10px;
+        background: #018BF1;
+        margin: 30px;
+        padding: 50px;
+        display: flex;align-items: center;justify-content: space-between;
+        .space-text{
+    width: 100%;
+    h2 {
+        font-size: 30px;
+        color: #fff;
+        font-family: Montserrat;
+        font-weight: 800;
+        width: 100%;
+    }
+    p{
+        color: #fff;
+        font-size: 15px ;
+        margin: 20px 0px;
+    }
+    button {
+        padding: 10px 15px;
+        font-weight: 700;
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        background: #B2904C;
+        margin-top: 20px;
+    }
+        }
+        .space-game{
+            width: 100%;
+    img{
+        width: 100%;
+    }
+        }
+    }
+    #risky-way{
+        margin: 50px 30px;
+        display: flex;align-items: center;justify-content: center;
+        padding: 50px;
+        background:#FF4655 ;
+        border-radius: 10px;
+        .risky-text{
+    width: 100%;
+    h2 {
+        font-size: 30px;
+        color: #fff;
+        font-family: Montserrat;
+        font-weight: 800;
+        width: 100%;
+    }
+    p{
+        color: #fff;
+        font-size: 15px ;
+        margin: 20px 0px;
+    }
+    button {
+        padding: 10px 15px;
+        font-weight: 700;
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+        color: #FF4655;
+        background: #fff;
+        margin-top: 20px;
+    }
+        }
+        .risky{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+        }
+    }
+    #pacman{
+        margin: 50px 30px;  
+        display: flex;align-items: center;justify-content: center;
+        padding: 50px;
+        background: #261B6C ;
+        border-radius: 10px; 
+        .pacman-text{
+            width: 100%;
+    h2 {
+        font-size: 30px;
+        color: #fff;
+        font-family: Montserrat;
+        font-weight: 800;
+        width: 100%;
+    }
+    p{
+        color: #fff;
+        font-size: 15px ;
+        margin: 20px 0px;
+    }
+    button {
+        padding: 10px 15px;
+        font-weight: 700;
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+        color: #FF4655;
+        background: #fff;
+        margin-top: 20px;
+    }
+        }
+        .pac{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }  
+}
+@media(max-width:820px){
+    * {
+        margin: 0;
+        padding: 0;
+        transition: all 3s ease-in-out;
+        font-family: Avenir Lt Std;
+    }
+    #cornet{
+        margin: 0px 30px;
+        display: flex;align-items: center;justify-content: center;
+        .character, .characters{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    #spaceship{
+        border-radius: 10px;
+        background: #018BF1;
+        margin: 30px;
+        padding: 50px;
+        display: flex;align-items: center;justify-content: space-between;
+        .space-text{
+    width: 100%;
+    h2 {
+        font-size: 30px;
+        color: #fff;
+        font-family: Montserrat;
+        font-weight: 800;
+        width: 100%;
+    }
+    p{
+        color: #fff;
+        font-size: 15px ;
+        span{display: none;}
+        margin: 20px 0px;
+    }
+    button {
+        padding: 10px 15px;
+        font-weight: 700;
+        font-size: 15px;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        background: #B2904C;
+        margin-top: 20px;
+    }
+        }
+        .space-game{
+            width: 100%;
+    img{
+        width: 100%;
+    }
+        }
+    }
+    #risky-way{
+        margin: 50px 30px;
+        display: flex;align-items: center;justify-content: center;
+        padding: 50px;
+        gap: 20px;
+        background:#FF4655 ;
+        border-radius: 10px;
+        .risky-text{
+    width: 100%;
+    h2 {
+        font-size: 30px;
+        color: #fff;
+        font-family: Montserrat;
+        font-weight: 800;
+        width: 100%;
+    }
+    p{
+        color: #fff;
+        font-size: 15px ;
+        margin: 20px 0px;
+span{display: none;}
+    }
+    button {
+        padding: 10px 15px;
+        font-weight: 700;
+        font-size: 15px;
+        border: none;
+        border-radius: 5px;
+        color: #FF4655;
+        background: #fff;
+        margin-top: 20px;
+    }
+        }
+        .risky{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+        }
+    }
+    #pacman{
+        margin: 50px 30px;  
+        display: flex;align-items: center;justify-content: center;
+        padding: 50px;
+        gap: 20px;
+        background: #261B6C ;
+        border-radius: 10px; 
+        .pacman-text{
+            width: 100%;
+    h2 {
+        font-size: 30px;
+        color: #fff;
+        font-family: Montserrat;
+        font-weight: 800;
+        width: 100%;
+    }
+    p{
+        color: #fff;
+        font-size: 15px ;
+        margin: 20px 0px;
+        span{display: none;}
+    }
+    button {
+        padding: 10px 15px;
+        font-weight: 700;
+        font-size: 15px;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        background: #B2904C;
+        margin-top: 20px;
+    }
+        }
+        .pac{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+@media(max-width:768px){
+    * {
+        margin: 0;
+        padding: 0;
+        transition: all 3s ease-in-out;
+        font-family: Avenir Lt Std;
+    }
+    #cornet{
+        margin: 0px 30px;
+        display: flex;align-items: center;justify-content: center;
+        .character, .characters{
+            img{
+                width: 90%;
+            }
+        }
+    }
+    #spaceship{
+        border-radius: 10px;
+        background: #018BF1;
+        margin: 30px;
+        padding: 50px;
+        display: flex;align-items: center;justify-content: space-between;
+        .space-text{
+    width: 100%;
+    h2 {
+        font-size: 25px;
+        color: #fff;
+        font-family: Montserrat;
+        font-weight: 800;
+        width: 100%;
+    }
+    p{
+        color: #fff;
+        font-size: 15px ;
+        margin: 20px 0px;
+    }
+    button {
+        padding: 10px 15px;
+        font-weight: 700;
+        font-size: 15px;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        background: #B2904C;
+        margin-top: 20px;
+    }
+        }
+        .space-game{
+            width: 100%;
+    img{
+        width: 100%;
+    }
+        }
+    }
+    #risky-way{
+        margin: 50px 30px;
+        display: flex;align-items: center;justify-content: center;
+        padding: 50px;
+        background:#FF4655 ;
+        border-radius: 10px;
+        .risky-text{
+    width: 100%;
+    h2 {
+        font-size: 25px;
+        color: #fff;
+        font-family: Montserrat;
+        font-weight: 800;
+        width: 100%;
+    }
+    p{
+        color: #fff;
+        font-size: 15px ;
+        margin: 20px 0px;
+    }
+    button {
+        padding: 10px 15px;
+        font-weight: 700;
+        font-size: 15px;
+        border: none;
+        border-radius: 5px;
+        color: #FF4655;
+        background: #fff;
+        margin-top: 20px;
+    }
+        }
+        .risky{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+        }
+    }
+    #pacman{
+        margin: 50px 30px;  
+        display: flex;align-items: center;justify-content: center;
+        padding: 50px;
+        background: #261B6C ;
+        border-radius: 10px; 
+        .pacman-text{
+            width: 100%;
+    h2 {
+        font-size: 25px;
+        color: #fff;
+        font-family: Montserrat;
+        font-weight: 800;
+        width: 100%;
+    }
+    p{
+        color: #fff;
+        font-size: 15px ;
+        margin: 20px 0px;
+    }
+    button {
+        padding: 10px 15px;
+        font-weight: 700;
+        font-size: 15px;
+        border: none;
+        border-radius: 5px;
+        color: #B2904C;
+        background: #261B6C;
+        margin-top: 20px;
+    }
+        }
+        .pac{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
