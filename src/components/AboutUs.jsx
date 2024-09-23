@@ -3,6 +3,7 @@ import abt1 from '../assets/images/about1.png'
 import abt2 from '../assets/images/about2.png'
 import abt3 from '../assets/images/about3.png'
 import abt4 from '../assets/images/about4.png'
+import { Link } from 'react-router-dom'
 const AboutUs = () => {
   return (
     <>
@@ -11,7 +12,7 @@ const AboutUs = () => {
             <h1>About Baker’s Inn</h1>
             <div className="hunger">
                 <p>It all started back in the eighties when Baker's Inn was just a small confectionery company that employed 40 people and produced about 30,000 loaves a day. We now aim to provide a nourishing, convenient and accessible answer to hunger’s call.</p>
-                <button>READ MORE</button>
+                <button><Link to='./aboutuspage'>READ MORE</Link></button>
             </div>
         </div>
         <div className="bout-images">

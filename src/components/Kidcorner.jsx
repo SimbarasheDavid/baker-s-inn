@@ -6,6 +6,7 @@ import marioo from '../assets/images/Group 7.png'
 import bros from '../assets/images/mario bros.png'
 import shroom from '../assets/images/shroom.png'
 import kids from '../assets/images/Kids.png'
+import { Link } from 'react-router-dom'
 import coner from '../assets/images/Corner.png'
 const Kidcorner = () => {
     return (
@@ -44,7 +45,7 @@ const Kidcorner = () => {
                     </div>
                     <div className="texboxx">
                         <p>Let your children join the fun. Explore a place <span><br /></span> with exciting games and the top winners stand a <span><br /></span> chance to win exciting monthly prizes!</p>
-                        <button>PLAY GAMES</button>
+                        <button><Link to='./kidscornerpage'>PLAY GAMES</Link></button>
                     </div>
                 </div>
             </div>

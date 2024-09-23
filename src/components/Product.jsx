@@ -3,6 +3,7 @@ import pro1 from '../assets/images/products4.png'
 import pro2 from '../assets/images/products1.png'
 import pro3 from '../assets/images/products2.png'
 import pro4 from '../assets/images/products3.png'
+import { Link } from 'react-router-dom'
 const Product = () => {
     return (
         <>
@@ -42,7 +43,7 @@ const Product = () => {
                         </div>
                     </div>
                 </div>
-                <button>VIEW COMPLETE RANGE</button>
+                <button><Link to='./producepage'>VIEW COMPLETE RANGE</Link></button>
             </div>
         </>
     )
