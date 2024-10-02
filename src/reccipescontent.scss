@@ -1,4 +1,7 @@
 * {
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
     margin: 0;
     padding: 0;
     transition: all 3s ease-in-out;
@@ -93,6 +96,7 @@
         padding: 0;
         transition: all 3s ease-in-out;
         font-family: Avenir Lt Std;
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
     }
     #finest{
         margin: 0px 50px;
@@ -185,6 +189,7 @@
         padding: 0;
         transition: all 3s ease-in-out;
         font-family: Avenir Lt Std;
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
     }
     #finest{
         margin: 0px 50px;
@@ -281,6 +286,7 @@
         padding: 0;
         transition: all 3s ease-in-out;
         font-family: Avenir Lt Std;
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
     }
     #finest{
         margin: 0px 50px;
@@ -378,6 +384,7 @@
         padding: 0;
         transition: all 3s ease-in-out;
         font-family: Avenir Lt Std;
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
     }
     #finest{
         margin: 0px 50px;
@@ -463,4 +470,322 @@
         }
     
     } 
+}
+@media(max-width:430px){
+    * {
+        margin: 0;
+        padding: 0;
+        transition: all 3s ease-in-out;
+        font-family: Avenir Lt Std;
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    }
+    #finest{
+        margin: 0px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        .tik-text{
+            width: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h2{
+                font-weight: 800;
+                font-family: Montserrat;
+                color: #261B6C;
+                font-size: 25px;
+
+            }
+            p{
+                text-align: center;
+                color: #261B6C;
+                margin: 10px 0px;
+                font-size: 15px;
+                span{
+                    display: none;
+                }
+            }
+        }
+        .croissants{
+            display: flex;
+            flex-direction: column;
+    
+       .paris{
+        display: flex;align-items: center;justify-content: center;
+        gap: 20px;
+        img{
+            width: 100%;
+        }
+       }
+        }
+    }
+    #Reccipes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 100px 10px;
+    
+        h2 {
+            font-size: 25px;
+            color: #261B6C;
+            font-family: Montserrat;
+            font-weight: 800;
+    
+        }
+    
+        .tabs {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            border-bottom: #000 1px solid;
+            margin-top: 30px;
+            width: 100%;
+    
+            li {
+                margin: 10px 0px;
+                font-size: 20px;
+                font-family: Montserrat;
+                font-weight: 700;
+                cursor: pointer;
+                list-style: none;
+                color: #AEA9C7;
+            }
+    
+            .active-kids,
+            .active-vegans,
+            .active-family {
+                // text-decoration: underline 3px solid #B2904C;
+                color: #261B6C;
+                border-bottom: #B2904C 5px solid;
+                padding: 0px 10px;
+    
+                li {
+                    color: #261B6C;
+                    padding: 10px 0px;
+    
+                }
+            }
+    
+        }
+    
+    }
+}
+@media(max-width:414px){
+    * {
+        margin: 0;
+        padding: 0;
+        transition: all 3s ease-in-out;
+        font-family: Avenir Lt Std;
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    }
+    #finest{
+        margin: 0px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        .tik-text{
+            width: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h2{
+                font-weight: 800;
+                font-family: Montserrat;
+                color: #261B6C;
+                font-size: 25px;
+
+            }
+            p{
+                text-align: center;
+                color: #261B6C;
+                margin: 10px 0px;
+                font-size: 15px;
+                span{
+                    display: none;
+                }
+            }
+        }
+        .croissants{
+            display: flex;
+            flex-direction: column;
+    
+       .paris{
+        display: flex;align-items: center;justify-content: center;
+        gap: 20px;
+        img{
+            width: 100%;
+        }
+       }
+        }
+    }
+    #Reccipes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 100px 10px;
+    
+        h2 {
+            font-size: 25px;
+            color: #261B6C;
+            font-family: Montserrat;
+            font-weight: 800;
+    
+        }
+    
+        .tabs {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            border-bottom: #000 1px solid;
+            margin-top: 30px;
+            width: 100%;
+    
+            li {
+                margin: 10px 0px;
+                font-size: 20px;
+                font-family: Montserrat;
+                font-weight: 700;
+                cursor: pointer;
+                list-style: none;
+                color: #AEA9C7;
+            }
+    
+            .active-kids,
+            .active-vegans,
+            .active-family {
+                // text-decoration: underline 3px solid #B2904C;
+                color: #261B6C;
+                border-bottom: #B2904C 5px solid;
+                padding: 0px 10px;
+    
+                li {
+                    color: #261B6C;
+                    padding: 10px 0px;
+    
+                }
+            }
+    
+        }
+    
+    }  
+}
+@media(max-width:390px){
+    * {
+        margin: 0;
+        padding: 0;
+        transition: all 3s ease-in-out;
+        font-family: Avenir Lt Std;
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    }
+    #finest{
+        margin: 0px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        .tik-text{
+            width: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h2{
+                font-weight: 800;
+                font-family: Montserrat;
+                color: #261B6C;
+                font-size: 25px;
+
+            }
+            p{
+                text-align: center;
+                color: #261B6C;
+                margin: 10px 0px;
+                font-size: 15px;
+                span{
+                    display: none;
+                }
+            }
+        }
+        .croissants{
+            display: flex;
+            flex-direction: column;
+    
+       .paris{
+        display: flex;align-items: center;justify-content: center;
+        gap: 20px;
+        img{
+            width: 100%;
+        }
+       }
+        }
+    }
+    #Reccipes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 100px 10px;
+    
+        h2 {
+            font-size: 25px;
+            color: #261B6C;
+            font-family: Montserrat;
+            font-weight: 800;
+    
+        }
+    
+        .tabs {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            border-bottom: #000 1px solid;
+            margin-top: 30px;
+            width: 100%;
+    
+            li {
+                margin: 10px 0px;
+                font-size: 15px;
+                font-family: Montserrat;
+                font-weight: 700;
+                cursor: pointer;
+                list-style: none;
+                color: #AEA9C7;
+            }
+    
+            .active-kids,
+            .active-vegans,
+            .active-family {
+                // text-decoration: underline 3px solid #B2904C;
+                color: #261B6C;
+                border-bottom: #B2904C 5px solid;
+                padding: 0px 10px;
+    
+                li {
+                    color: #261B6C;
+                    padding: 10px 0px;
+    
+                }
+            }
+    
+        }
+    
+    }  
 }

@@ -16,30 +16,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .modal-content{
     background-color: white;
-    background-size: contain;
     padding: 20px;
-    border-radius: 8px;
-   width: 100%;
+    border-radius: 10px;
+    width: 95%;
+    height: 100vh;
     position: relative;
-height: 100vh;
-}
+    
 
+}
 
 .close-button{
     position: absolute;
     top: 10px;
     right: 15px;
-    font-size: 24px;
+    font-size: 24;
     cursor: pointer;
     background: #261B6C;
     padding: 5px;
-    border-radius: 50%;
+    border-radius: 100px;
     color: #fff;
     text-align: center;
-    width: 3%;
+    width: 10%;
 }

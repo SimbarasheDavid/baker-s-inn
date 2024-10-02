@@ -121,6 +121,7 @@
         padding: 0;
         transition: all 3s ease-in-out;
         font-family: Avenir Lt Std;
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
     }
     #product-range{
         margin: 0px 30px;
@@ -139,7 +140,7 @@
                 padding: 0px 20px;
                 position: absolute;
                 bottom: 0px;
-                width: 96.98%;
+                width: 100%;
                 h2{
                     font-weight: 800;
                     font-family: Montserrat;
@@ -240,6 +241,7 @@
         padding: 0;
         transition: all 3s ease-in-out;
         font-family: Avenir Lt Std;
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
     }
     #product-range{
         margin: 0px 30px;
@@ -258,7 +260,7 @@
                 padding: 0px 20px;
                 position: absolute;
                 bottom: 0px;
-                width: 95.88%;
+                width: 100%;
                 h2{
                     font-weight: 800;
                     font-family: Montserrat;
@@ -359,6 +361,7 @@
         padding: 0;
         transition: all 3s ease-in-out;
         font-family: Avenir Lt Std;
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
     }
     #product-range{
         margin: 0px 30px;
@@ -482,6 +485,7 @@
         padding: 0;
         transition: all 3s ease-in-out;
         font-family: Avenir Lt Std;
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
     }
     #product-range{
         margin: 0px 30px;
@@ -500,7 +504,7 @@
                 padding: 0px 20px;
                 position: absolute;
                 bottom: 0px;
-                width: 94.3%;
+                width: 100%;
                 h2{
                     font-weight: 800;
                     font-family: Montserrat;
@@ -596,4 +600,376 @@ font-size: 20px;
     }
         }
     }
+}
+@media(max-width:430px){
+    
+    
+    * {
+        margin: 0;
+        padding: 0;
+        transition: all 3s ease-in-out;
+        font-family: Avenir Lt Std;
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    }
+    #product-range{
+        margin: 0px 10px;
+        position: relative;
+        .range{
+            .prod-img{
+                img{
+                    width: 100%;
+                }
+            }
+            .produce-text{
+                display: flex;
+                align-items: center;
+                background: linear-gradient(360deg, #000 20%, transparent);
+                justify-content: space-between;
+                padding: 0px 20px;
+                position: absolute;
+                bottom: 0px;
+                width: 100%;
+                h2{
+                    font-weight: 800;
+                    font-family: Montserrat;
+                    color: #fff;
+                    font-size: 20px;
+                } 
+            }
+        }
+    }
+    #our-produce{
+        display: flex;align-items: center;justify-content: center;
+        flex-direction: column;
+        margin: 90px 30px;
+        h2{
+            font-weight: 800;
+            font-family: Montserrat;
+            color: #261B6C;
+            font-size: 20px;
+        } 
+        .tabs-four{
+            display: flex;align-items: center;justify-content: center;
+            gap: 20px;
+            border-bottom: #000 1px solid;
+            margin-top: 30px;
+            width: 100%;
+            li {
+                margin: 10px 0px;
+                font-size: 15px;
+                font-family: Montserrat;
+                font-weight: 700;
+                cursor: pointer;
+                list-style: none;
+                color: #AEA9C7;
+            }
+            .active-breado, .active-meatpies, .active-scones, .active-donuts{
+                color: #261B6C;
+                border-bottom: #B2904C 5px solid;
+                padding: 0px 10px;
+    
+                li {
+                    color: #261B6C;
+                    padding: 10px 0px;
+    
+                }
+            }
+        }
+        .contento{
+            .forBread, .forMeatpies, .forScones, .forDonuts{
+                display: none;
+            }
+            .active-forBread, .active-forMeatpies, .active-forScones, .active-forDonuts{
+                display: block;
+            }
+    .card-container{
+        display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            gap: 40px;
+            text-align: center;
+            .Loafcard{
+                background: #F7F5E8;
+                margin: 90px 0px;
+                padding: 20px;
+    .premium{
+        margin-top: -80px;
+    }
+                .loafa, .loaf{
+                    width: 100%;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .loaftexto, .loaftext{
+                   display: flex;flex-direction: column;
+                   align-items: center;justify-content: center;
+                h2{
+                    width: 100%;
+                    text-align: center;
+                    margin: 10px 0px;
+                    font-weight: 800;
+                    font-family: Montserrat;
+                    color: #261B6C;
+font-size: 20px;
+                }
+                p{
+                    color: #261B6C;
+                    margin: 10px 0px;
+                    font-size: 15px;
+                }
+                }
+            }
+            
+    }
+        }
+    }
+}
+@media(max-width:414px){
+    * {
+        margin: 0;
+        padding: 0;
+        transition: all 3s ease-in-out;
+        font-family: Avenir Lt Std;
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    }
+    #product-range{
+        margin: 0px 10px;
+        position: relative;
+        .range{
+            .prod-img{
+                img{
+                    width: 100%;
+                }
+            }
+            .produce-text{
+                display: flex;
+                align-items: center;
+                background: linear-gradient(360deg, #000 20%, transparent);
+                justify-content: space-between;
+                padding: 0px 20px;
+                position: absolute;
+                bottom: 0px;
+                width: 100%;
+                h2{
+                    font-weight: 800;
+                    font-family: Montserrat;
+                    color: #fff;
+                    font-size: 20px;
+                } 
+            }
+        }
+    }
+    #our-produce{
+        display: flex;align-items: center;justify-content: center;
+        flex-direction: column;
+        margin: 90px 30px;
+        h2{
+            font-weight: 800;
+            font-family: Montserrat;
+            color: #261B6C;
+            font-size: 20px;
+        } 
+        .tabs-four{
+            display: flex;align-items: center;justify-content: center;
+            gap: 20px;
+            border-bottom: #000 1px solid;
+            margin-top: 30px;
+            width: 100%;
+            li {
+                margin: 10px 0px;
+                font-size: 15px;
+                font-family: Montserrat;
+                font-weight: 700;
+                cursor: pointer;
+                list-style: none;
+                color: #AEA9C7;
+            }
+            .active-breado, .active-meatpies, .active-scones, .active-donuts{
+                color: #261B6C;
+                border-bottom: #B2904C 5px solid;
+                padding: 0px 10px;
+    
+                li {
+                    color: #261B6C;
+                    padding: 10px 0px;
+    
+                }
+            }
+        }
+        .contento{
+            .forBread, .forMeatpies, .forScones, .forDonuts{
+                display: none;
+            }
+            .active-forBread, .active-forMeatpies, .active-forScones, .active-forDonuts{
+                display: block;
+            }
+    .card-container{
+        display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            gap: 40px;
+            text-align: center;
+            .Loafcard{
+                background: #F7F5E8;
+                margin: 90px 0px;
+                padding: 20px;
+    .premium{
+        margin-top: -80px;
+    }
+                .loafa, .loaf{
+                    width: 100%;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .loaftexto, .loaftext{
+                   display: flex;flex-direction: column;
+                   align-items: center;justify-content: center;
+                h2{
+                    width: 100%;
+                    text-align: center;
+                    margin: 10px 0px;
+                    font-weight: 800;
+                    font-family: Montserrat;
+                    color: #261B6C;
+font-size: 20px;
+                }
+                p{
+                    color: #261B6C;
+                    margin: 10px 0px;
+                    font-size: 15px;
+                }
+                }
+            }
+            
+    }
+        }
+    }
+}
+@media(max-width:390px){
+    * {
+        margin: 0;
+        padding: 0;
+        transition: all 3s ease-in-out;
+        font-family: Avenir Lt Std;
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    }
+    #product-range{
+        margin: 0px 10px;
+        position: relative;
+        .range{
+            .prod-img{
+                img{
+                    width: 100%;
+                }
+            }
+            .produce-text{
+                display: flex;
+                align-items: center;
+                background: linear-gradient(360deg, #000 20%, transparent);
+                justify-content: space-between;
+                padding: 0px 20px;
+                position: absolute;
+                bottom: 0px;
+                width: 100%;
+                h2{
+                    font-weight: 800;
+                    font-family: Montserrat;
+                    color: #fff;
+                    font-size: 20px;
+                } 
+            }
+        }
+    }
+    #our-produce{
+        display: flex;align-items: center;justify-content: center;
+        flex-direction: column;
+        margin: 90px 30px;
+        h2{
+            font-weight: 800;
+            font-family: Montserrat;
+            color: #261B6C;
+            font-size: 20px;
+        } 
+        .tabs-four{
+            display: flex;align-items: center;justify-content: center;
+            gap: 20px;
+            border-bottom: #000 1px solid;
+            margin-top: 30px;
+            width: 100%;
+            li {
+                margin: 10px 0px;
+                font-size: 15px;
+                font-family: Montserrat;
+                font-weight: 700;
+                cursor: pointer;
+                list-style: none;
+                color: #AEA9C7;
+            }
+            .active-breado, .active-meatpies, .active-scones, .active-donuts{
+                color: #261B6C;
+                border-bottom: #B2904C 5px solid;
+                padding: 0px 10px;
+    
+                li {
+                    color: #261B6C;
+                    padding: 10px 0px;
+    
+                }
+            }
+        }
+        .contento{
+            .forBread, .forMeatpies, .forScones, .forDonuts{
+                display: none;
+            }
+            .active-forBread, .active-forMeatpies, .active-forScones, .active-forDonuts{
+                display: block;
+            }
+    .card-container{
+        display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+            text-align: center;
+            .Loafcard{
+                background: #F7F5E8;
+                margin: 20px 0px;
+                padding: 20px;
+    .premium{
+        margin-top: -80px;
+    }
+                .loafa, .loaf{
+                    width: 100%;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .loaftexto, .loaftext{
+                   display: flex;flex-direction: column;
+                   align-items: center;justify-content: center;
+                h2{
+                    width: 100%;
+                    text-align: center;
+                    margin: 10px 0px;
+                    font-weight: 800;
+                    font-family: Montserrat;
+                    color: #261B6C;
+font-size: 20px;
+                }
+                p{
+                    color: #261B6C;
+                    margin: 10px 0px;
+                    font-size: 15px;
+                }
+                }
+            }
+            
+    }
+        }
+    }
+ 
 }

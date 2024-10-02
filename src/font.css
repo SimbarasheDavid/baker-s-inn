@@ -1,0 +1,8 @@
+@font-face {
+    font-family: black;
+    src: url(./fonts/Avenir-Font/avenir_ff/AvenirLTStd-Black.otf);
+}
+@font-face {
+    font-family: bold;
+    src: url(./fonts/montserrat/Montserrat-Bold.ttf);
+}

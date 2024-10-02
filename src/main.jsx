@@ -8,6 +8,8 @@ import './productcontent.scss'
 import './reccipescontent.scss'
 import './kidCornercontent.scss'
 import './contactuscontent.scss'
+import './Ham.css'
+import './font.css'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />

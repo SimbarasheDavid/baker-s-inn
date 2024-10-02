@@ -9,6 +9,7 @@ import linkd from '../assets/images/bi_linkedin.png'
 import foni from '../assets/images/Vector.png'
 import mail from '../assets/images/teenyicons_envelope-solid.png'
 import diary from '../assets/images/inscor_logo@2x 1.png'
+import { Link } from 'react-router-dom'
 const Footer = () => {
     return (
         <>
@@ -78,11 +79,11 @@ const Footer = () => {
                     </div>
                     <div className="sitemap">
                         <h2>Sitemap</h2>
-                        <p>Home</p>
-                        <p>About-Us</p>
-                        <p>Products</p>
-                        <p>Recipies</p>
-                        <p>Kids Corner</p>
+                        <Link to='/'><p>Home</p></Link>
+                        <Link to='./aboutuspage'><p>About-Us</p></Link>
+                        <Link to='./producepage'><p>Products</p></Link>
+                        <Link to='./reccipespage'><p>Recipies</p></Link>
+                        <Link to='kidscornerpage'><p>Kids Corner</p></Link>
                     </div>
                 </div>
                 <hr />

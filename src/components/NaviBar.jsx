@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../assets/images/bakers-inn-category 1.png'
 import { Link } from 'react-router-dom'
+import HamMenu from './HamMenu'
 const NaviBar = () => {
   return (
     <>
@@ -19,6 +20,10 @@ const NaviBar = () => {
           <Link to='/reccipespage'><li>Recipes</li></Link>
           <Link to='/kidscornerpage'><li>Kid's Corner</li></Link>
           <Link to='/contactuspage'><button>CONTACT US</button></Link>
+          <div className="hamMenu">
+          <HamMenu/>
+          </div>
+         
         </ul>
       </nav>
     </>
