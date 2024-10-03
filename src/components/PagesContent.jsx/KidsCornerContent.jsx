@@ -1,5 +1,5 @@
 import React from 'react'
-import kidcornet from '../../assets/images/kidds Corner.png'
+import kidcornet from '../../assets/images/Kidds Corner.png'
 import actors from '../../assets/images/GAMES.png'
 import game1 from '../../assets/images/Rectangle 382.png'
 import risky from '../../assets/images/Group 315.png'
